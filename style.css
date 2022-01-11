@@ -1,0 +1,96 @@
+body{
+    user-select: none;
+    background-size: cover;;
+}
+
+
+#header{
+    font-size:28px;
+    font-family: 'Kalam', cursive;
+    margin:0px;
+    width:100%;
+}
+
+
+#note{
+    font-size:16px;
+    font-family: 'Kalam', cursive;
+}
+
+
+.disk{
+    width:200px;
+    border-radius:70px;
+}
+
+
+#speed_div{
+    float:left;
+}
+
+
+#volume_div{
+    float: right;
+}
+
+
+#play{
+    width:200px;
+    height:60px;
+    font-size:16px;
+    font-family: 'Kalam', cursive;
+}
+
+
+#pause{
+    width:200px;
+    height:60px;
+    font-size:16px;
+    font-family: 'Kalam', cursive;
+}
+
+
+.button{
+    font-family: 'Kalam', cursive;
+    width:200px;
+    height:60px;
+    font-size:16px;
+    border-style: groove;
+    border-color:chartreuse;
+    border-radius:700px;
+    border-width:8px;
+}
+
+
+#footer{
+    background-color:gold;
+    width:100%;
+    font-family: 'Kalam', cursive;
+    font-size:22px;
+    border-style:groove;
+    border-width:8px;
+    border-color:chartreuse;
+    bottom:0;
+    position:fixed;
+    text-align:center;
+}
+
+
+canvas{
+    border-radius:70px;
+    border-color:darkgreen;
+    border-style: ridge;
+    border-width:16px;
+    animation-name:boxshadow;
+    animation-iteration-count:infinite;
+    animation-duration:4s;
+    margin-top:80px;
+}
+
+
+@keyframes boxshadow{
+    from{box-shadow : 5px 5px 25px rgb(23, 23, 87);}
+    to{ box-shadow : 5px 5px 25px rgb(148, 207, 88);}
+}
+
+
