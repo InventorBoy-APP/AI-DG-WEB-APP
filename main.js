@@ -20,7 +20,7 @@ function preload(){
 
 function play(){
         song.play();
-        song.volume(0.2);
+        song.volume(1);
         song.rate(1);
 }
 
@@ -37,8 +37,8 @@ function resetS(){
 
 
 function resetV(){
-    song.volume(0.2);
-    document.getElementById("buttonVolume").innerHTML = " Volume = 0.2x ";
+    song.volume(1);
+    document.getElementById("buttonVolume").innerHTML = " Volume = 1x ";
 }
 
 
